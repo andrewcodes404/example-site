@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon-blue.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>ManiTest</title>
+  </head>
+  <body>
+    <div class="loadingAnim" id="loadingAnim">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav>
+      <a href="./">
+        <h3></h3>
+      </a>
+
+      <div class="hamburger-wrapper">
+        <div id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <ul class="menu-desk" id="menu-desk"></ul>
+    </nav>
+
+    <ul class="menu-mob" id="menu-mob"></ul>
+
+    <section></section>
+    <footer></footer>
+
+    <div class="body-bkg-blue">
+      <img  alt="" srcset="/img/blue-bkg-mob.png 750w, /img/blue-bkg-tab.png 1540w, /img/blue-bkg-desk-sml.png 2000w, /img/blue-bkg-desk-lrg.png 3000w, img/blue-bkg-desk-sml.png" />
+    </div>
+
+
+    <script src="./js/main.js"></script>
+
+    <!-- I have gulp using babel and then minifying the JS but was having issues with it compiling correctly so using the plain JS file for now-->
+    <!-- <script src="./js/main.min.js"></script> -->
+  </body>
+</html>
